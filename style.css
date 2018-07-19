@@ -1,0 +1,29 @@
+
+
+.pt-5rem{
+  padding-top: 5rem;
+}
+
+.text-carousel-adjust{
+  padding: 0 10rem;
+}
+
+.pb-5rem{
+  padding-bottom: 5rem;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.flexbox{
+  display:flex;
+}
+
+.text-primary{
+ color: #5e3eb8 !important;
+}
+
+.bg-primary {
+  background: #5e3eb8 !important;
+}
