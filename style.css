@@ -1,13 +1,22 @@
 html {
     font-size: 16px;
-    
 } 
-.pt-5rem{
-  padding-top: 5rem;
+body{
+  overflow-x: hidden;
+  font-family: 'Maven Pro', sans-serif;
 }
-
-.pb-5rem{
-  padding-bottom: 5rem;
+html, body{
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
 }
 
 .carousel-adjust-text .carousel-item{
@@ -18,25 +27,6 @@ html {
   min-height: 400px;
 }
 
-
-
-
-body{
-  overflow-x: hidden;
-  font-family: 'Maven Pro', sans-serif;
-}
-
-.text-primary{
- color: #5e3eb8 !important;
-}
-
-.bg-primary {
-  background: #5e3eb8 !important;
-}
-.btn-round{
-  border-radius: 50%;
-}
-
 .landing{
   height: 65vh;
 }
@@ -44,10 +34,39 @@ body{
   /* background: linear-gradient(to bottom right, rgb(62, 65, 107), rgb(12, 27, 44)); */
   background: linear-gradient(to bottom right, rgb(137, 255, 200), rgb(14, 19, 49))
 }
+.display-black{
+  font-family: 'Stint Ultra Expanded', cursive;
+  font-weight: 900;
+}
+
+
+
+ .bg-darker{
+   background: rgb(14, 19, 49) !important;
+ }
+
+
+
+
+.text-primary{
+ color: rgb(137, 255, 200) !important;
+}
+
+.bg-primary {
+  background: rgb(137, 255, 200) !important;
+}
+.btn-outline-primary{
+  color: rgb(87, 255, 176);
+  border-color: rgb(87, 255, 176);
+}
+.btn-outline-primary:hover, .btn-outline-primary:active{
+  background: rgb(87, 255, 176);
+  border-color: rgb(87, 255, 176);
+  color: #333;
+}
 .bg-dark{
   background: #22313F !important;
 }
-
 .navbar-brand{
   position: absolute; 
   left: 0; 
@@ -59,10 +78,6 @@ body{
 }
 .navbar-toggler:hover{
   background: #eeeeee;
-}
-.display-black{
-  font-family: 'Stint Ultra Expanded', cursive;
-  font-weight: 900;
 }
 .btn-outline-light{
   border: 0;
@@ -79,3 +94,12 @@ body{
   color: #ffb53e !important;
 }
  /* #ffae00 */
+
+ .form-control, .form-control:focus{
+   background: transparent;
+   color: #eee;
+ }
+.btn-round{
+  border-radius: 50%;
+}
+

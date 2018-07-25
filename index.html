@@ -9,15 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Stint+Ultra+Expanded|Maven+Pro" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Ferhat Avdic</title>
 </head>
 
 <body class="bg-dark text-light">
-  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light p-3 shadow">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light p-3 p-md shadow">
     <a class="navbar-brand d-none d-md-block" href="#">
       <h5 class="mb-0 ">Ferhat Avdic</h5>
     </a>
@@ -29,29 +29,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class=" navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="index.html#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#impressions">Impressions</a>
+          <a class="nav-link" href="index.html#impressions">Impressions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#aboutme">About Me / Contact</a>
+          <a class="nav-link" href="about.html">About Me / Contact</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio">
-            <i class="fa fa-github" style="font-size: 18px"></i>
+          <a class="nav-link" href="https://github.com/FerhatAvdic" target="_blank">
+            <i class="fab fa-github" style="font-size: 18px"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#impressions">
-            <i class="fa fa-facebook" style="font-size: 18px"></i>
+          <a class="nav-link" href="https://www.facebook.com/profile.php?id=100006144436661" target="_blank">
+            <i class="fab fa-facebook-f" style="font-size: 18px"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#aboutme">
-            <i class="fa fa-linkedin" style="font-size: 18px"></i>
+          <a class="nav-link" href="https://www.linkedin.com/in/ferhat-avdi%C4%87-324385b9/" target="_blank">
+            <i class="fab fa-linkedin-in" style="font-size: 18px"></i>
           </a>
         </li>
       </ul>
@@ -66,11 +66,14 @@
             <h1 class="m-0 display-4 display-black text-center"><strong>Ferhat <span style="color: rgb(137, 255, 200);">Avdic</span></strong></h1>
             <p class="mb-0 lead">Web Developer</p>
             <p>__</p>
-            <p class="text-center">Enim beatae occaecati eligendi qui aut impedit excepturi iusto. Ab incidunt excepturi ea non veniam nisi est vel. Enim
-              quia qui rerum. Consectetur debitis repudiandae magni quo nobis optio.</p>
+            <p class="text-justify">
+              Wtih a strong foundation and an ever expanding skillset, im ready to get the job done. 
+              Having worked with several different technologies i quickly adapt to new environments. 
+              I like an open, honest and productive climate. 
+            </p>
             <div class="w-100 d-flex justify-content-between">
               <a href="" class="text-secondary">Download CV</a>
-              <a href="" class="text-secondary">Github</a>
+              <a href="https://github.com/FerhatAvdic" target="_blank" class="text-secondary">Github</a>
             </div>
           </div>
         </div>
@@ -78,7 +81,7 @@
     </div>
   </div>
   <div class="text-center mb-4">
-    <a href="#portfolio" type="button" class="btn btn-lg btn-outline-light btn-round text-secondary"><i class="fa fa-angle-down" style="font-size: 36px"></i></a>
+    <a href="#portfolio" type="button" class="btn btn-lg btn-outline-light btn-round text-secondary"><i class="fas fa-chevron-down" style="font-size: 36px;"></i></a>
   </div>
   <!-- ABOUT ME -->
   <!-- <div id="aboutme" class="bg-primary">
@@ -286,6 +289,10 @@
   <script src="https://cdn.jsdelivr.net/npm/smoothstate@0.7.2/jquery.smoothState.min.js"></script>
   <script>
 	  var scroll = new SmoothScroll('a[href*="#"]');
+
+    $(function () {
+        $('#main').smoothState();
+      });
   </script>
 </body>
 
