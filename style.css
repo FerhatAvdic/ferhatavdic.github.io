@@ -36,16 +36,16 @@ body{
 .btn-round{
   border-radius: 50%;
 }
-.bg-dark{
-  background: #333333 !important;
-
-}
 
 .landing{
   height: 65vh;
 }
 .gradient-bg{
-  /* background: linear-gradient(to bottom, #7369ff, #ffffff); */
+  /* background: linear-gradient(to bottom right, rgb(62, 65, 107), rgb(12, 27, 44)); */
+  background: linear-gradient(to bottom right, rgb(137, 255, 200), rgb(14, 19, 49))
+}
+.bg-dark{
+  background: #22313F !important;
 }
 
 .navbar-brand{
@@ -59,6 +59,21 @@ body{
 }
 
 .display-black{
-  font-family: 'Archivo Black';
+  font-family: 'Stint Ultra Expanded';
+  font-weight: 900;
+}
+.btn-outline-light{
+  border: 0;
+}
+.btn-outline-light:hover{
+  background: transparent;
+  color: white !important;
+}
+.bg-warning{
+  background: #ffb53e !important;
 }
 
+.text-warning{
+  color: #ffb53e !important;
+}
+ /* #ffae00 */

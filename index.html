@@ -11,13 +11,13 @@
     crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Maven+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Stint+Ultra+Expanded|Maven+Pro" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Ferhat Avdic</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark p-3 shadow">
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light p-3 shadow">
 <a class="navbar-brand d-none d-md-block" href="#">
   <h5 class="mb-0 ">Ferhat Avdic</h5>
 </a>
@@ -58,12 +58,12 @@
     </div>
   </nav>
 
-  <div id="home" class="gradient-bg">
+  <div id="home">
     <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3">
           <div class="landing d-flex flex-column justify-content-center align-items-center">
-            <h1 class="m-0 display-4 text-dark display-black">Ferhat Avdic</h1>
+            <h1 class="m-0 display-4 display-black"><strong>Ferhat <span style="color: rgb(137, 255, 200);">Avdic</span></strong></h1>
             <p class="mb-0 lead">Junior Web Developer</p>
             <p>__</p>
             <p class="text-center">Enim beatae occaecati eligendi qui aut impedit excepturi iusto. Ab incidunt excepturi ea non veniam nisi est vel. Enim
@@ -78,7 +78,7 @@
     </div>
   </div>
   <div class="text-center mb-4">
-    <a href="#portfolio" type="button" class="btn btn-lg btn-light btn-round text-secondary"><i class="fa fa-angle-down" style="font-size: 36px"></i></a>
+    <a href="#portfolio" type="button" class="btn btn-lg btn-outline-light btn-round text-secondary"><i class="fa fa-angle-down" style="font-size: 36px"></i></a>
   </div>
   <!-- ABOUT ME -->
   <!-- <div id="aboutme" class="bg-primary">
@@ -131,7 +131,7 @@
     </div>
   </div>
   <!-- Impressions -->
-  <div id="impressions" class="bg-dark text-light">
+  <div id="impressions" class="gradient-bg text-light">
       <div class="container">
         <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner carousel-adjust-textbox carousel-adjust-text">
@@ -150,14 +150,16 @@
               </p>
             </div>
             <div class="carousel-item">
-              <h5 class="text-center mb-3">Giedrius Seimantas</h5>
-              <p><i>"Another great experience with Ferhat. Do not be reluctant to go into hourly contracts with him. He does what he says, is
-              spot on with his estimations and communicates well."</i></p>
-            </div>
-            <div class="carousel-item">
               <h5 class="text-center mb-3">Viktor Dufour</h5>
               <p><i>"Ferhat is an awesome worker. He did perfect work and was available when needed. He adhered to deadlines perfectly well.I
               hope he soon has some free time to work with me again!"</i></p>
+            </div>
+            <div class="carousel-item">
+              <h5 class="text-center mb-3">Giedrius Seimantas</h5>
+              <p>
+                <i>"Another great experience with Ferhat. Do not be reluctant to go into hourly contracts with him. He does what he says,
+                  is spot on with his estimations and communicates well."</i>
+              </p>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -267,6 +269,9 @@
     </div>
   </div>
 </div> -->
+<footer class="bg-light text-dark p-2 text-center">
+  Powered by Bootstrap 2018
+</footer>
 
 
   <!-- Optional JavaScript -->
@@ -278,6 +283,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/smoothstate@0.7.2/jquery.smoothState.min.js"></script>
   <script>
 	  var scroll = new SmoothScroll('a[href*="#"]');
   </script>
