@@ -23,7 +23,7 @@ html {
 
 body{
   overflow-x: hidden;
-   font-family: 'Maven Pro';
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .text-primary{
@@ -57,9 +57,11 @@ body{
   width: 150px;
   text-align: center;
 }
-
+.navbar-toggler:hover{
+  background: #eeeeee;
+}
 .display-black{
-  font-family: 'Stint Ultra Expanded';
+  font-family: 'Stint Ultra Expanded', cursive;
   font-weight: 900;
 }
 .btn-outline-light{
