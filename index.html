@@ -9,63 +9,77 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Ferhat Avdic</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark p-3">
+<a class="navbar-brand d-none d-md-block" href="#">
+  <b>Ferhat Avdic</b>
+</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class=" navbar-nav ml-auto">
+      <ul class=" navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link text-light" href="#aboutme">About Me</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#impressions">Impressions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#impressions">Impressions</a>
+          <a class="nav-link" href="#aboutme">About Me / Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">
+            <i class="fa fa-github" style="font-size: 18px"></i>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#education">Education</a>
+          <a class="nav-link" href="#impressions">
+            <i class="fa fa-facebook" style="font-size: 18px"></i>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#contact">Contact</a>
+          <a class="nav-link" href="#aboutme">
+            <i class="fa fa-linkedin" style="font-size: 18px"></i>
+          </a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="home" class="container mt-5">
-    <div class="d-flex flex-wrap flex-row align-items-center">
-      <div class="col-md">
-        <h1 class="m-0 text-primary"><b>Ferhat</b> Avdich</h1>
-        <p class="mb-0">Junior Web Developer</p>
-        <p>__</p>
-        <p>Enim beatae occaecati eligendi qui aut impedit excepturi iusto. Ab incidunt excepturi ea non veniam nisi est vel. Enim quia
-        qui rerum. Consectetur debitis repudiandae magni quo nobis optio.</p>
-        <div class="row">
-          <p class="col">
+  <div id="home" class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="landing d-flex flex-column justify-content-center align-items-center">
+          <h1 class="m-0 text-dark">
+            <b>Ferhat</b> Avdic</h1>
+          <p class="mb-0">Junior Web Developer</p>
+          <p>__</p>
+          <p class="text-center">Enim beatae occaecati eligendi qui aut impedit excepturi iusto. Ab incidunt excepturi ea non veniam nisi est vel. Enim
+            quia qui rerum. Consectetur debitis repudiandae magni quo nobis optio.</p>
+          <div class="w-100 d-flex justify-content-between">
             <a href="">Download CV</a>
-          </p>
-          <p class="col text-right">
             <a href="">Github</a>
-          </p>
+          </div>
         </div>
-      </div>
-      <div class="col-md">
-        <img src="/Untitled-4.png" alt="" width="500">
       </div>
     </div>
   </div>
+  <div class="text-center mb-4">
+    <a href="#portfolio" type="button" class="btn btn-lg btn-light btn-round text-secondary"><i class="fa fa-angle-down" style="font-size: 36px"></i></a>
+  </div>
   <!-- ABOUT ME -->
-  <div id="aboutme" class="bg-primary">
+  <!-- <div id="aboutme" class="bg-primary">
     <div class="container pt-5rem pb-5rem">
       <div class="row text-white">
         <div class="col-md-3">
@@ -78,137 +92,78 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- PORTFOLIO -->
-  <div id="portfolio" class="row mt-5 mb-5">
-    <div class="col text-center"><h3><b>Portfolio</b></h3></div>
-  </div>
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <a href="https://app.wicotiz.com/">
-        <img src="wicotiz.jpg" class="img-fluid  w-100" alt="">
-      </a>
-    </div>
-    <div class="col-md-6">
-      <div class="p-5">
-        <h4>Wicotiz Web App</h4>
-        <p>
-          Optio consequatur cum perferendis quia quo sed vel in. Magnam aut dolores voluptates voluptate cupiditate. Tempore impedit
-          magni porro delectus delectus. Cum ducimus necessitatibus ut dolorem similique quia soluta. Voluptas assumenda id officia
-          id voluptates sequi est.
-        </p>
+  <div id="portfolio" class="container mb-4 pb-5rem">
+    <div class="row mb-3">
+      <div class="col-md-6 p-1">
+        <img src="wic.png" alt="Wicotiz" class="img-fluid">
+      </div>
+      <div class="col-md-6 p-1">
+        <img src="ntv.png" alt="NamaiTV" class="img-fluid">
       </div>
     </div>
-  </div>
-  <div class="row no-gutters">
-    <div class="col-md-6 bg-light">
-      <div class="p-5">
-        <h4>Namai TV</h4>
-        <p>
-          Optio consequatur cum perferendis quia quo sed vel in. Magnam aut dolores voluptates voluptate cupiditate. Tempore impedit
-          magni porro delectus delectus. Cum ducimus necessitatibus ut dolorem similique quia soluta. Voluptas assumenda id officia
-          id voluptates sequi est.
-        </p>
+    <div class="row mb-3">
+      <div class="col-md-6 p-1">
+        <img src="lota.png" alt="Lota" class="img-fluid">
+      </div>
+      <div class="col-md-6 p-1">
+        <img src="pq.png" alt="PlaceQuality" class="img-fluid">
       </div>
     </div>
-    <div class="col-md-6">
-      <a href="http://www.namai.tv/#/">
-        <img src="namaitv.jpg" class="img-fluid  w-100" alt="">
-      </a>
-    </div>
-  </div>
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <a href="https://apartmani-lota-admin.herokuapp.com/">
-        <img src="lota.jpg" class="img-fluid w-100" alt="">
-      </a>
-    </div>
-    <div class="col-md-6">
-      <div class="p-5">
-        <h4>Apartmani Lota</h4>
-        <p>
-          Optio consequatur cum perferendis quia quo sed vel in. Magnam aut dolores voluptates voluptate cupiditate. Tempore impedit
-          magni porro delectus delectus. Cum ducimus necessitatibus ut dolorem similique quia soluta. Voluptas assumenda id officia
-          id voluptates sequi est.
-        </p>
+    <div class="row mb-3">
+      <div class="col-md-6 p-1">
+        <img src="ibu.png" alt="IBUScienceOlympiad" class="img-fluid">
+      </div>
+      <div class="col-md-6 p-1">
+        <img src="av.png" alt="ArsVivendi" class="img-fluid">
       </div>
     </div>
-  </div>
-  <div class="row no-gutters">
-    <div class="col-md-6 bg-light">
-      <div class="p-5">
-        <h4>Place Quality</h4>
-        <p>
-          Optio consequatur cum perferendis quia quo sed vel in. Magnam aut dolores voluptates voluptate cupiditate. Tempore impedit
-          magni porro delectus delectus. Cum ducimus necessitatibus ut dolorem similique quia soluta. Voluptas assumenda id officia
-          id voluptates sequi est.
-        </p>
+    <div class="row mb-3">
+      <div class="col-md-6 p-1">
+        <img src="kc.png" alt="KulturniCentar" class="img-fluid">
       </div>
-    </div>
-    <div class="col-md-6">
-      <a href="https://place-review-platform.herokuapp.com/#!/">
-        <img src="place-q.jpg" class="img-fluid w-100" alt="">
-      </a>
-    </div>
-  </div>
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <a href="http://bosnian-science-olympiad.herokuapp.com/">
-        <img src="ibu.jpg" class="img-fluid w-100" alt="">
-      </a>
-    </div>
-    <div class="col-md-6">
-      <div class="p-5">
-        <h4>Bosnian Sience Olympiad</h4>
-        <p>
-          Optio consequatur cum perferendis quia quo sed vel in. Magnam aut dolores voluptates voluptate cupiditate. Tempore impedit
-          magni porro delectus delectus. Cum ducimus necessitatibus ut dolorem similique quia soluta. Voluptas assumenda id officia
-          id voluptates sequi est.
-        </p>
+      <div class="col-md-6 p-1 d-flex align-items-center justify-content-center">
+          <h5>More to come...</h5>
       </div>
     </div>
   </div>
   <!-- Impressions -->
-  <div id="impressions" class="bg-primary text-white">
-      <div class="container ">
-        <div class="row">
-          <div class="col text-center">
-            <h3 class=" mt-5 mb-5"><b>Impressions</b></h3>
-          </div>
-        </div>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner pb-5">
-            <div class="carousel-item text-carousel-adjust active">
-              <h5>Viktor Dufour</h5>
+  <div id="impressions" class="bg-dark text-light">
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner carousel-adjust-textbox carousel-adjust-text">
+            <div class="carousel-item active">
+              <h5 class="text-center mb-3">Viktor Dufour</h5>
               <p><i>Perfect work by Ferhat. He was very dedicated, understood the work required right away. He made efforts to understand the
               product behind the work. Did that on his own and understood everything right away. His coding skills are excellent and I'm
               going to try and hire him again right away!</i></p>
             </div>
-            <div class="carousel-item text-carousel-adjust">
-              <h5>Giedrius Seimantas</h5>
+            <div class="carousel-item">
+              <h5 class="text-center mb-3">Giedrius Seimantas</h5>
               <p>
                 <i>Ferhat understood the specifications really well from the first try and came up with the right questions. He adapted well
                 to our dev env, which was quite complicated. It resulted him spending more time than he anticipated, but he delivered everything
                 on time and with top quality. I will definitely hire Ferhat again if I need some help.</i>
               </p>
             </div>
-            <div class="carousel-item text-carousel-adjust">
-              <h5>Giedrius Seimantas</h5>
+            <div class="carousel-item">
+              <h5 class="text-center mb-3">Giedrius Seimantas</h5>
               <p><i>Another great experience with Ferhat. Do not be reluctant to go into hourly contracts with him. He does what he says, is
               spot on with his estimations and communicates well.</i></p>
             </div>
-            <div class="carousel-item text-carousel-adjust">
-              <h5>Viktor Dufour</h5>
+            <div class="carousel-item">
+              <h5 class="text-center mb-3">Viktor Dufour</h5>
               <p><i>Ferhat is an awesome worker. He did perfect work and was available when needed. He adhered to deadlines perfectly well.I
               hope he soon has some free time to work with me again!</i></p>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <i class="fa fa-angle-left" style="font-size: 36px"></i>
             <span class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <i class="fa fa-angle-right" style="font-size: 36px"></i>
             <span class="sr-only">Next</span>
           </a>
         </div>
@@ -216,7 +171,7 @@
   </div>
 
   <!-- EDUCATION -->
-  <div id="education">
+  <!-- <div id="education">
     <div class="container ">
       <div class="row">
         <div class="col text-center">
@@ -248,9 +203,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 <!-- CONTACT -->
-<div id="contact" class="bg-primary text-white">
+<!-- <div id="contact" class="bg-primary text-white">
   <div class="container">
     <div class="row">
       <div class="col text-center">
@@ -309,7 +264,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
   <!-- Optional JavaScript -->
@@ -320,6 +275,10 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js"></script>
+  <script>
+	  var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </body>
 
 </html>

@@ -1,23 +1,24 @@
-
-
 .pt-5rem{
   padding-top: 5rem;
-}
-
-.text-carousel-adjust{
-  padding: 0 10rem;
 }
 
 .pb-5rem{
   padding-bottom: 5rem;
 }
 
-body{
-  overflow-x: hidden;
+.carousel-adjust-text .carousel-item{
+  text-align: justify;
+  padding: 10% 20%;
+}
+.carousel-adjust-textbox{
+  min-height: 400px;
 }
 
-.flexbox{
-  display:flex;
+
+
+
+body{
+  overflow-x: hidden;
 }
 
 .text-primary{
@@ -26,4 +27,21 @@ body{
 
 .bg-primary {
   background: #5e3eb8 !important;
+}
+.btn-round{
+  border-radius: 50%;
+}
+
+.landing{
+  height: 65vh;
+}
+
+.navbar-brand{
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 150px;
+  text-align: center;
 }
