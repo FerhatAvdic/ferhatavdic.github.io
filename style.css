@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+    
+} 
 .pt-5rem{
   padding-top: 5rem;
 }
@@ -19,6 +23,7 @@
 
 body{
   overflow-x: hidden;
+   font-family: 'Maven Pro';
 }
 
 .text-primary{
@@ -31,9 +36,16 @@ body{
 .btn-round{
   border-radius: 50%;
 }
+.bg-dark{
+  background: #333333 !important;
+
+}
 
 .landing{
   height: 65vh;
+}
+.gradient-bg{
+  /* background: linear-gradient(to bottom, #7369ff, #ffffff); */
 }
 
 .navbar-brand{
@@ -45,3 +57,8 @@ body{
   width: 150px;
   text-align: center;
 }
+
+.display-black{
+  font-family: 'Archivo Black';
+}
+
