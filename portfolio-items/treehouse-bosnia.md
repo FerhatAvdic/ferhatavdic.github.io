@@ -1,22 +1,7 @@
 ---
-  layout: portfolio-item
-  rootpath: "../"
   navtitle: "Treehouse Bosnia"
   siteurl: "https://www.mwa-sarajevo.ba"
   introimg: "../images/mwa.png"
-  links:
-    -
-      text: "Home"
-      url: "/"
-    -
-      text: "Introduction"
-      url: "#introduction"
-    -
-      text: "Technologies"
-      url: "#technologies"
-    -
-      text: "Experience"
-      url: "#experience"
 ---
 
 # Treehouse Bosnia

@@ -1,0 +1,41 @@
+[
+  {
+  "href": "/portfolio-items/treehouse-bosnia.html",
+  "src": "images/mwa.png",
+  "alt": "WMA Treehouse Bosnia"
+  },
+{
+  "href": "portfolio-items/wicotiz.html",
+  "src": "images/wic.png",
+  "alt": "Wicotiz"
+},
+{
+  "href": "portfolio-items/namai-tv.html",
+  "src": "images/ntv.png",
+  "alt": "Namai TV"
+},
+{
+  "href": "portfolio-items/lota.html",
+  "src": "images/lota.png",
+  "alt": "Apartmani Lota"
+},
+{
+  "href": "portfolio-items/place-quality.html",
+  "src": "images/pq.png",
+  "alt": "Place Quality"
+},
+{
+  "href": "portfolio-items/bso.html",
+  "src": "images/ibu.png",
+  "alt": "Bosnian Science Olympiad"
+},
+{
+  "href": "portfolio-items/ars-vivendi.html",
+  "src": "images/av.png",
+  "alt": "Ars Vivendi"
+},
+{
+  "href": "portfolio-items/kulturni-centar.html",
+  "src": "images/kc.png",
+  "alt": "Kulturni Centar"
+}]

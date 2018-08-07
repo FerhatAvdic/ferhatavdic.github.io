@@ -29,6 +29,27 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+defaults:
+-
+  scope:
+    path: "portfolio-items"
+  values:
+    layout: "portfolio-item"
+    rootpath: "../"
+    links:
+    -
+      text: "Home"
+      url: "/"
+    -
+      text: "Introduction"
+      url: "#introduction"
+    -
+      text: "Technologies"
+      url: "#technologies"
+    -
+      text: "Experience"
+      url: "#experience"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

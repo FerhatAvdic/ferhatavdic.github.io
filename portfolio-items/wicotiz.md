@@ -1,22 +1,7 @@
 ---
-  layout: portfolio-item
-  rootpath: "../"
   navtitle: "Wicotiz Web App"
   siteurl: "https://app.wicotiz.com/"
   introimg: "../images/wic.png"
-  links:
-    -
-      text: "Home"
-      url: "/"
-    -
-      text: "Introduction"
-      url: "#introduction"
-    -
-      text: "Technologies"
-      url: "#technologies"
-    -
-      text: "Experience"
-      url: "#experience"
 ---
 
 # Wicotiz Web App

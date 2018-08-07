@@ -42,45 +42,12 @@
       <!-- PORTFOLIO -->
       <div id="portfolio" class="container mb-5">
         <div class="row mb-3">
+          {% for item in site.data.portfolio-items %}
           <div class="col-md-6 p-1">
-            <a href="/portfolio-items/treehouse-bosnia.html"><img src="images/mwa.png" alt="WMA Treehouse Bosnia" class="img-fluid shadow"></a>
+            <a href="{{item.href}}"><img src="{{item.src}}" alt="{{item.alt}}" class="img-fluid shadow"></a>
           </div>
-          <div class="col-md-6 p-1">
-            <a href="/portfolio-items/wicotiz.html"><img src="images/wic.png" alt="NamaiTV" class="img-fluid shadow"></a>
-          </div>
+          {% endfor %}
         </div>
-        <div class="row mb-3">
-          <div class="col-md-6 p-1">
-            <img src="images/ntv.png" alt="Wicotiz" class="img-fluid shadow">
-          </div>
-          <div class="col-md-6 p-1">
-            <img src="images/lota.png" alt="NamaiTV" class="img-fluid shadow">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col-md-6 p-1">
-            <img src="images/pq.png" alt="Lota" class="img-fluid shadow">
-          </div>
-          <div class="col-md-6 p-1">
-            <img src="images/ibu.png" alt="PlaceQuality" class="img-fluid shadow">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col-md-6 p-1">
-            <img src="images/av.png" alt="IBUScienceOlympiad" class="img-fluid shadow">
-          </div>
-          <div class="col-md-6 p-1">
-            <img src="images/kc.png" alt="ArsVivendi" class="img-fluid shadow">
-          </div>
-        </div>
-        <!-- <div class="row mb-3">
-          <div class="col-md-6 p-1">
-            <img src="images/kc.png" alt="KulturniCentar" class="img-fluid shadow">
-          </div>
-          <div class="col-md-6 p-1 d-flex align-items-center justify-content-center mt-5">
-              <h5>More to come...</h5>
-          </div>
-        </div> -->
       </div>
       <!-- Impressions -->
       <div id="impressions" class="gradient-bg text-light">
