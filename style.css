@@ -102,3 +102,8 @@ body {
 .btn-round{
   border-radius: 50%;
 }
+
+blockquote{
+  border-left: 3px solid #eee;
+  padding-left: 15px;
+}
