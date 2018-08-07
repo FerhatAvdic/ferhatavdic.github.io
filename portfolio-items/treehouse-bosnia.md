@@ -30,7 +30,7 @@ Treehouse apartments rent at Treskavica near Trnovo. Such a beautiful, unique pl
 
 A basic **Node.js** server followed by an smtp service by **Mailgun** allowed me to quickly create an api for sending emails using nodemailer. The route endpoint is created via **Express.js** which is accessed by using the new **Fetch API** in common javascript. The front-end is completely static to ensure speed.
 
-## <i class="devicon-nodejs-plain ml-auto"></i> <i class="devicon-express-original"></i> ## <i class="devicon-bootstrap-plain"></i>
+## <i class="devicon-nodejs-plain ml-auto"></i> <i class="devicon-express-original"></i> <i class="devicon-bootstrap-plain"></i>
 
 <img src="../images/treehouse-bosnia/mwa-form.png" class="img-fluid shadow mt-5 mb-5">
 
