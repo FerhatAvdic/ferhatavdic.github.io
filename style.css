@@ -35,7 +35,7 @@ body {
   background: linear-gradient(to bottom right, rgb(137, 255, 200), rgb(14, 19, 49))
 }
 .display-black{
-  font-family: 'Stint Ultra Expanded', cursive;
+  font-family: 'Nothing You Could Do', cursive;
   font-weight: 900;
 }
 
@@ -102,4 +102,3 @@ body {
 .btn-round{
   border-radius: 50%;
 }
-
