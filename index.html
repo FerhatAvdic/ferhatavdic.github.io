@@ -43,8 +43,9 @@
       <div id="portfolio" class="container mb-5">
         <div class="row mb-3">
           {% for item in site.data.portfolio-items %}
-          <div class="col-md-6 p-1">
+          <div class="col-md-6 p-3">
             <a href="{{item.href}}"><img src="{{item.src}}" alt="{{item.alt}}" class="img-fluid shadow"></a>
+            <a href="{{item.href}}" class="btn btn-light btn-block rounded-0 shadow mb-3 p-3">{{item.alt}}</a>
           </div>
           {% endfor %}
         </div>
