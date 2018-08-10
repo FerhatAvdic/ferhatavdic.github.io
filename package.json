@@ -1,0 +1,26 @@
+{
+  "name": "ferhatavdic.github.io",
+  "version": "1.0.0",
+  "description": "Personal Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerhatAvdic/ferhatavdic.github.io.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "ferhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FerhatAvdic/ferhatavdic.github.io/issues"
+  },
+  "homepage": "https://github.com/FerhatAvdic/ferhatavdic.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0"
+  }
+}
