@@ -142,10 +142,12 @@ blockquote{
   border: transparent;
   background: transparent;
   outline: 0;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .btn.focus, .btn:focus {
     outline: 0;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 .navbar-dark .navbar-nav .nav-link {
