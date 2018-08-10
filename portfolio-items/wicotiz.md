@@ -3,7 +3,7 @@
   siteurl: "https://app.wicotiz.com/"
   introimg: "../images/wic.png"
 ---
-
+<div id="introduction" class="anchor"></div>
 # Wicotiz Web App
 
 > "Wicotiz card is a Mastercard® prepaid card with no bank account, available for everyone. Receive and send money, pay bills, shop online or in stores. It's a simple, secure and rechargeable payment method."
@@ -14,7 +14,7 @@ The approach to this project is something im really proud of. Writing modular, c
 
 <img src="../images/wicotiz/wic-login.png" class="img-fluid shadow mt-5">
 <img src="../images/wicotiz/wic-transactions.png" class="img-fluid shadow mt-5 mb-5">
-
+<div id="technologies" class="anchor"></div>
 # AngularJS
 
 As the app grows, angular starts to show its true glory. Having everything organized in a clean file structure that tells you exactly where what belongs (i.e. everything has its right place and name) and having dependency injection is something you never want to go back from. I've built crud apps before with the framework that didn't require lots of api calls, services, filters and other dependencies. Now i truly understand the power of a well established framework. Google has done a great job and im looking forward to learning the new version.
@@ -24,7 +24,7 @@ The back-end was done by a colleague who did a wonderful job making my journey p
 ## <i class="devicon-mongodb-plain"></i> <i class="devicon-express-original"></i> <i class="devicon-angularjs-plain"></i> <i class="devicon-nodejs-plain"></i>
 
 <img src="../images/wicotiz/wic-overview.png" class="img-fluid shadow mt-5 mb-5">
-
+<div id="experience" class="anchor"></div>
 # Combining design and front-end work
 
 My first journey on upwork had to be done correctly. I gave it my all to build something pleasing and useful. I was given a template that helped me shape the design that would stay true to the one in the landing page and mobile app. I had to modify it multiple times to have it compatible with angular and fit my needs as it was built upon jquery. 

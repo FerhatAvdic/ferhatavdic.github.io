@@ -10,7 +10,7 @@
       text: "Introduction"
       url: "#introduction"
 ---
-
+<div id="introduction" class="anchor"></div>
 # Kulturni Centar
 
 A university project where we were to use a PHP framework to build a basic crud app. This is rather a web app mock. I've chosen Code Igniter for the sake of simplicity. You can create shows, reserve places, and contact the place. It is all done in a crud fashion just to check out this framework and how it works. 

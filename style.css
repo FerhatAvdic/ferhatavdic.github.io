@@ -21,12 +21,13 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.content {
+main {
+  padding-top: 72px;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
 }
-.footer {
+footer {
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -151,10 +152,17 @@ blockquote{
     box-shadow: none;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.9);d
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
     background: transparent;
     outline: 0;
+}
+
+.anchor{
+  display: block;
+  position: relative;
+  top: -95px;
+  visibility: hidden;
 }

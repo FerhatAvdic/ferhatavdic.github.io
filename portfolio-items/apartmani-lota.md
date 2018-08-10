@@ -4,6 +4,7 @@
   introimg: "../images/lota.png"
 ---
 
+<div id="introduction" class="anchor"></div>
 # Apartmani Lota
 
 Apartment rent in Kostrena, Hrvatska. The client wanted a simple landing page. I decided to take it a step further and check out Vue. While i was at it, why not try Firebase as well. The page features a description of the place,services, a small gallery, social media bar, a weather broadcast and guest reviews. To make it an actual web app and to learn something more along the way i made a small admin panel where you can modify data on the page, upload and delete photos etc. I've basically turned a landing page into a crud project.
@@ -12,6 +13,7 @@ Apartment rent in Kostrena, Hrvatska. The client wanted a simple landing page. I
 <img src="../images/apartmani-lota/lota-upload.png" class="img-fluid shadow mt-5">
 <img src="../images/apartmani-lota/lota-reviews.png" class="img-fluid shadow mt-5 mb-5">
 
+<div id="technologies" class="anchor"></div>
 # Vue.js and Firebase
 
 Having actual experience using AngularJS, **Vue** seemed very familiar as the underlying architecture is partially based off of angular's. The **Vue-CLI** made the initial setup very easy. The articles weren't lying about the gentle learning curve of the framework. It uses third party libraries where ever possible. Using **components** i realized how modular the code can be. The new approach really is a better foundation to build web apps upon. Furthermore, I've used **vue-router** to switch between views and a bunch of API's like google maps, weather and social media. Luckily, the vue community is vibrant and makes things much easier as you are one npm install away from getting what you need.
@@ -22,6 +24,7 @@ Firebase has an amazing API with a thorough documentation with examples of usage
 
 <img src="../images/apartmani-lota/lota-plugins.png" class="img-fluid shadow mt-5 mb-5">
 
+<div id="experience" class="anchor"></div>
 # Vuetify - A CSS Framework for Vue
 
 Working with a css framework like Bootstrap is one thing, but Vuetify is made only for Vue and the elements are basically vue **components** with their **properties and directives** that you can use to customize them for your needs. The **flexbox-based layout** takes a bit of getting used to, but it has some really neat features like a ready side navbar you have right out of the box that fits the layout perfectly. Vuetify features modern elements based on googles popular **material design**. It contains almost everything you need for a crud app.

@@ -39,7 +39,7 @@ defaults:
     links:
     -
       text: "Home"
-      url: "/"
+      url: "#top"
     -
       text: "Introduction"
       url: "#introduction"
