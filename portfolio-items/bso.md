@@ -2,6 +2,9 @@
   navtitle: "Bosnian Science Olympiad"
   siteurl: "https://bosnian-science-olympiad.herokuapp.com/"
   introimg: "../images/ibu.png"
+  next: "/portfolio-items/place-quality.html"
+  prev: "/portfolio-items/ars-vivendi.html"
+  
 ---
 <div id="introduction" class="anchor"></div>
 # Bosnian Science Olympiad

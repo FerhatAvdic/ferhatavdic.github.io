@@ -2,6 +2,8 @@
   navtitle: "Apartmani Lota"
   siteurl: "http://www.apartmani-lota.com"
   introimg: "../images/lota.png"
+  next: "/portfolio-items/namai-tv.html"
+  prev: "/portfolio-items/place-quality.html"
 ---
 
 <div id="introduction" class="anchor"></div>

@@ -9,6 +9,8 @@
     - 
       text: "Introduction"
       url: "#introduction"
+  prev: "/portfolio-items/treehouse-bosnia.html"
+  next: "/portfolio-items/ars-vivendi.html"
 ---
 <div id="introduction" class="anchor"></div>
 # Kulturni Centar

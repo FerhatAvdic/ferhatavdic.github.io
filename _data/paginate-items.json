@@ -1,0 +1,52 @@
+[
+  [
+    {
+      "href": "portfolio-items/treehouse-bosnia.html",
+      "src": "images/mwa.png",
+      "alt": "WMA Treehouse Bosnia",
+      "desc": "Treehouse apartments rent at Treskavica near Trnovo. Such a beautiful, unique place deserves a responsive landing page that's just as attractive. Images played a vital role"
+    },
+    {
+      "href": "portfolio-items/wicotiz.html",
+      "src": "images/wic.png",
+      "alt": "Wicotiz",
+      "desc": "The approach to this project is something im really proud of. Writing modular, clean and structured code is very helpful and makes"
+    },
+    {
+      "href": "portfolio-items/namai-tv.html",
+      "src": "images/ntv.png",
+      "alt": "Namai TV",
+      "desc": "A TV service that streams channels online that can be accessed from anywhere. I was assigned a task to refactor the service"
+    },
+    {
+      "href": "portfolio-items/apartmani-lota.html",
+      "src": "images/lota.png",
+      "alt": "Apartmani Lota",
+      "desc": "Apartment rent in Kostrena, Hrvatska. The client wanted a simple landing page. I decided to take it a step further and check out Vue. While i was at it, why not try Firebase as well."
+    },
+    {
+      "href": "portfolio-items/place-quality.html",
+      "src": "images/pq.png",
+      "alt": "Place Quality",
+      "desc": "A Trip Advisor inspired university project. We had to build a simple crud app using MEAN stack, but since i was already long into it, i wanted to try out something new and build something meaningful."
+    },
+    {
+      "href": "portfolio-items/bso.html",
+      "src": "images/ibu.png",
+      "alt": "Bosnian Science Olympiad",
+      "desc": "Nam voluptatum minima voluptatem aut voluptatem est et quibusdam. Quam quam voluptatem saepe accusantium numquam nesciunt dignissimos qui. Consequuntur ea vero quisquam aspernatur aut architecto. Sint cum dignissimos officia autem nisi placeat. Vel officia ipsa culpa accusantium numquam."
+    },
+    {
+      "href": "portfolio-items/ars-vivendi.html",
+      "src": "images/av.png",
+      "alt": "Ars Vivendi",
+      "desc": "Temporibus commodi laborum aut sed accusamus dolorem cupiditate repellat quasi. Commodi incidunt molestiae dolore voluptatem aut eos omnis earum omnis. Neque molestiae quis qui tenetur."
+    },
+    {
+      "href": "portfolio-items/kulturni-centar.html",
+      "src": "images/kc.png",
+      "alt": "Kulturni Centar",
+      "desc": "A university project where we were to use a PHP framework to build a basic crud app. This is rather a web app mock. I've chosen..."
+    }
+  ]
+]
