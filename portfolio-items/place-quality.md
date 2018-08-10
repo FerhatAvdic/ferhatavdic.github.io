@@ -6,7 +6,7 @@
 
 # Place Quality
 
-A Trip Advisor inspired university project. We had to build a simple crud app using mean stack, but since i was already long into it, i wanted to try out something new and build something meaningful. The idea was to use Gmaps API from within angularjs and explore how it all works. The app includes user signup, authentication, various crud modules like places to go, suggestions and reviews. To have things under control, i've built an admin panel to approve suggestions and manage places. The project was fun and exciting as i strived to write code as dry,clean and structured as i possibly can.
+A Trip Advisor inspired university project. We had to build a simple crud app using MEAN stack, but since i was already long into it, i wanted to try out something new and build something meaningful. The idea was to use Gmaps API from within angularjs and explore how it all works. The app includes user signup, authentication, various crud modules like places to go, suggestions and reviews. To have things under control, i've built an admin panel to approve suggestions and manage places. The project was fun and exciting as i strived to write code as dry,clean and structured as i possibly can.
 
 <img src="../images/place-quality/pq-signup.png" class="img-fluid shadow mt-5">
 <img src="../images/place-quality/pq-admin1.png" class="img-fluid shadow mt-5 mb-5">

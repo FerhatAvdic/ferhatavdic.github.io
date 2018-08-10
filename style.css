@@ -1,3 +1,7 @@
+:root{
+  --cyan-light: var(--cyan-light);
+  --cyan: #00b698;
+}
 html {
     font-size: 16px;
 } 
@@ -9,22 +13,42 @@ html, body{
   height: 100%;
 }
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
   flex: 1 0 auto;
 }
 .footer {
+  -ms-flex-negative: 0;
   flex-shrink: 0;
+}
+.text-cyan{
+  color: var(--cyan);
+}
+.bg-cyan{
+  background-color: var(--cyan);
 }
 
 .carousel-adjust-text .carousel-item{
   text-align: justify;
-  padding: 10% 20%;
+  padding: 5px;
 }
 .carousel-adjust-textbox{
   min-height: 400px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
 }
 
 .landing{
@@ -32,14 +56,20 @@ body {
 }
 .gradient-bg{
   /* background: linear-gradient(to bottom right, rgb(62, 65, 107), rgb(12, 27, 44)); */
-  background: linear-gradient(to bottom right, rgb(137, 255, 200), rgb(14, 19, 49))
+  background: -webkit-gradient(linear, left top, right bottom, from(var(--cyan-light)), to(rgb(14, 19, 49)));
+  background: linear-gradient(to bottom right, var(--cyan-light), rgb(14, 19, 49))
 }
 .display-black{
   font-family: 'Nothing You Could Do', cursive;
   font-weight: 900;
 }
 
-
+.portfolio-desc{
+  height: 3rem;
+  white-space: pre-wrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
 
  .bg-darker{
    background: rgb(14, 19, 49) !important;
@@ -49,11 +79,11 @@ body {
 
 
 .text-primary{
- color: rgb(137, 255, 200) !important;
+ color: rgb(87, 255, 176) !important;
 }
 
 .bg-primary {
-  background: rgb(137, 255, 200) !important;
+  background: var(--cyan) !important;
 }
 .btn-outline-primary{
   color: rgb(87, 255, 176);
@@ -106,4 +136,18 @@ body {
 blockquote{
   border-left: 3px solid #eee;
   padding-left: 15px;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active, 
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.btn-outline-light:not(:disabled):not(.disabled).active:focus, 
+.btn-outline-light:not(:disabled):not(.disabled):active:focus{
+  border: transparent;
+  background: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
 }

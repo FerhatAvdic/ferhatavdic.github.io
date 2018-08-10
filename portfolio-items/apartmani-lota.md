@@ -6,7 +6,7 @@
 
 # Apartmani Lota
 
-Apartment rent in Kostrena, Hrvatska. The client only wanted a simple landing page. I decided to take it a step further and check out Vue. While i was at it, why not try Firebase as well. The page features a description of the place,services, a small gallery, social media bar, a weather broadcast and guest reviews. To make it an actual web app and to learn something more along the way i made a small admin panel where you can modify data on the page, upload and delete photos etc. I've basically turned a landing page into a crud project.
+Apartment rent in Kostrena, Hrvatska. The client wanted a simple landing page. I decided to take it a step further and check out Vue. While i was at it, why not try Firebase as well. The page features a description of the place,services, a small gallery, social media bar, a weather broadcast and guest reviews. To make it an actual web app and to learn something more along the way i made a small admin panel where you can modify data on the page, upload and delete photos etc. I've basically turned a landing page into a crud project.
 
 <img src="../images/apartmani-lota/lota-txt.png" class="img-fluid shadow mt-5">
 <img src="../images/apartmani-lota/lota-upload.png" class="img-fluid shadow mt-5">
