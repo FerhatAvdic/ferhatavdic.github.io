@@ -2,8 +2,8 @@
   navtitle: "Place Quality"
   siteurl: "https://www.place-quality.me"
   introimg: "../images/pq.png"
-  prev: "/portfolio-items/bso.html"
-  next: "/portfolio-items/apartmani-lota"
+  next: "/portfolio-items/bso.html"
+  prev: "/portfolio-items/apartmani-lota"
 ---
 <div id="introduction" class="anchor"></div>
 # Place Quality

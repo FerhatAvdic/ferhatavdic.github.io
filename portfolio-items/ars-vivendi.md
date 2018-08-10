@@ -2,8 +2,8 @@
   navtitle: "Ars Vivendi"
   siteurl: "http://dive.ntg.ba"
   introimg: "../images/av.png"
-  next: "/portfolio-items/bso.html"
-  prev: "/portfolio-items/kulturni-centar.html"
+  prev: "/portfolio-items/bso.html"
+  next: "/portfolio-items/kulturni-centar.html"
 ---
 
 <div id="introduction" class="anchor"></div>

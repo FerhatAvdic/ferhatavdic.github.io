@@ -2,8 +2,8 @@
   navtitle: "Wicotiz Web App"
   siteurl: "https://app.wicotiz.com/"
   introimg: "../images/wic.png"
-  next: "/portfolio-items/treehouse-bosnia.html"
-  prev: "/portfolio-items/namai-tv.html"
+  prev: "/portfolio-items/treehouse-bosnia.html"
+  next: "/portfolio-items/namai-tv.html"
 ---
 <div id="introduction" class="anchor"></div>
 # Wicotiz Web App

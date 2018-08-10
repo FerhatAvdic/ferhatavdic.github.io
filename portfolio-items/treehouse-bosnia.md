@@ -2,8 +2,8 @@
   navtitle: "Treehouse Bosnia"
   siteurl: "https://www.mwa-sarajevo.ba"
   introimg: "../images/mwa.png"
-  prev: "/portfolio-items/wicotiz.html"
-  next: "/portfolio-items/kulturni-centar.html"
+  next: "/portfolio-items/wicotiz.html"
+  prev: "/portfolio-items/kulturni-centar.html"
 ---
 <div id="introduction" class="anchor"></div>
 # Treehouse Bosnia

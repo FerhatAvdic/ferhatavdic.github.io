@@ -2,8 +2,8 @@
   navtitle: "Namai TV"
   siteurl: "http://www.namai.tv/#/"
   introimg: "../images/ntv.png"
-  next: "/portfolio-items/wicotiz.html"
-  prev: "/portfolio-items/apartmani-lota.html"
+  prev: "/portfolio-items/wicotiz.html"
+  next: "/portfolio-items/apartmani-lota.html"
 ---
 <div id="introduction" class="anchor"></div>
 # Namai TV
