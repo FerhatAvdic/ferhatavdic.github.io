@@ -151,13 +151,10 @@ blockquote{
     box-shadow: none;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);d
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
     background: transparent;
     outline: 0;
-}
-.navbar-toggler span:hover, .navbar-toggler span:active{
-  color: #eee;
 }
