@@ -75,11 +75,8 @@ body {
    background: rgb(14, 19, 49) !important;
  }
 
-
-
-
 .text-primary{
- color: rgb(87, 255, 176) !important;
+ color: var(--cyan) !important;
 }
 
 .bg-primary {
@@ -150,4 +147,7 @@ blockquote{
 .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
 }
