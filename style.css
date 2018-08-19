@@ -67,9 +67,7 @@ footer {
 
 .portfolio-desc{
   height: 3rem;
-  white-space: pre-wrap;
   overflow: hidden !important;
-  text-overflow: ellipsis;
 }
 
  .bg-darker{
@@ -84,13 +82,24 @@ footer {
   background: var(--cyan) !important;
 }
 .btn-outline-primary{
-  color: rgb(87, 255, 176);
-  border-color: rgb(87, 255, 176);
+  color: var(--cyan);
+  border-color: var(--cyan);
 }
 .btn-outline-primary:hover, .btn-outline-primary:active{
-  background: rgb(87, 255, 176);
-  border-color: rgb(87, 255, 176);
-  color: #333;
+  background: var(--cyan);
+  border-color: var(--cyan);
+  color: #eee;
+}
+
+.btn-primary{
+  color: #eee;
+  background: var(--cyan);
+  border-color: var(--cyan);
+}
+.btn-primary:hover, .btn-primary:active{
+  color: var(--cyan);
+  background: #eee;
+  border-color: var(--cyan);
 }
 .bg-dark{
   background: #22313F !important;
@@ -165,4 +174,16 @@ blockquote{
   position: relative;
   top: -95px;
   visibility: hidden;
+}
+
+.portfolio-head{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.bg-light{
+  background-color: #eee !important;
+}
+.text-light{
+  color: #eee !important;
 }

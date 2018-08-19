@@ -48,9 +48,14 @@
             <div class="shadow">
               <a href="{{item.href}}"><img src="{{item.src}}" alt="{{item.alt}}" class="img-fluid border-bottom"></a>
               <div class="bg-light text-dark p-4">
-                <p class="lead">{{item.alt}}</p>
+                <p class="portfolio-head">{{item.alt}}</p>
                 <p class="portfolio-desc">{{item.desc}}</p>
-                <a href="{{item.href}}" class="text-cyan">See more</a>
+                <p class="text-secondary">
+                  {% for tech in item.tech %}
+                  <i>#{{tech}}</i>
+                  {% endfor %}
+                </p>
+                <a href="{{item.href}}" class="btn btn-block btn-outline-primary">See more</a>
               </div>
             </div>
           </div>
@@ -71,7 +76,7 @@
                           active 
                         {% endif %}">
                           <p><i>{{F.feedback}}</i></p>
-                          <p><strong>-- {{F.client}}</strong></p>
+                          <p><strong>-- {{F.client}}</strong>, {{F.project}}</p>
                         </div>
                     {% endfor %}
                     </div>
