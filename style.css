@@ -161,7 +161,9 @@ blockquote{
     box-shadow: none;
 }
 .navbar-dark .navbar-nav .nav-link {
+    display: inline-block;
     color: rgba(255, 255, 255, 0.9);
+    padding-right: .5rem;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {

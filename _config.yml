@@ -39,10 +39,10 @@ defaults:
     links:
     -
       text: "Home"
-      url: "#top"
+      url: "/"
     -
       text: "Introduction"
-      url: "#introduction"
+      url: "#"
     -
       text: "Technologies"
       url: "#technologies"
