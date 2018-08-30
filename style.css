@@ -61,7 +61,7 @@ footer {
   background: linear-gradient(to bottom right, var(--cyan-light), rgb(14, 19, 49))
 }
 .display-black{
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Nothing You Could Do', sans-serif;
   font-weight: 900;
 }
 
