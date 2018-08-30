@@ -8,14 +8,22 @@
       url: "/"
     - 
       text: "Introduction"
-      url: "#introduction"
+      url: "#top"
+    - 
+      text: "Technologies"
+      url: "#technologies"
   next: "/portfolio-items/treehouse-bosnia.html"
   prev: "/portfolio-items/ars-vivendi.html"
 ---
 <div id="introduction" class="anchor"></div>
+
 # Kulturni Centar
 
 A university project where we were to use a PHP framework to build a basic crud app. This is rather a web app mock. I've chosen Code Igniter for the sake of simplicity. You can create shows, reserve places, and contact the place. It is all done in a crud fashion just to check out this framework and how it works. 
+
+<img src="../images/kulturni-centar/kc-landing.png" class="img-fluid shadow mt-5 mb-5">
+
+<div id="technologies" class="anchor"></div>
 
 # Code Igniter
 
@@ -23,6 +31,5 @@ The coding pattern is strictly **MVC** which makes you to write cleaner code. I 
 
 ##  <i class="devicon-codeigniter-plain-wordmark"></i>
 
-<img src="../images/kulturni-centar/kc-landing.png" class="img-fluid shadow mt-5">
 <img src="../images/kulturni-centar/kc-reservation.png" class="img-fluid shadow mt-5">
 <img src="../images/kulturni-centar/kc-crud.png" class="img-fluid shadow mt-5 mb-5">
