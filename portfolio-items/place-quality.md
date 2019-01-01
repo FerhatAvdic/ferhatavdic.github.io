@@ -1,6 +1,6 @@
 ---
   navtitle: "Place Quality"
-  siteurl: "https://www.place-quality.me"
+  siteurl: "https://place-review-platform.herokuapp.com/"
   introimg: "../images/pq.png"
   next: "/portfolio-items/bso.html"
   prev: "/portfolio-items/apartmani-lota"
