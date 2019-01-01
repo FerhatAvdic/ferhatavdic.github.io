@@ -1,6 +1,6 @@
 ---
   navtitle: "Apartmani Lota"
-  siteurl: "http://www.apartmani-lota.com"
+  siteurl: "https://apartmani-lota.herokuapp.com/"
   introimg: "../images/lota.png"
   prev: "/portfolio-items/namai-tv.html"
   next: "/portfolio-items/place-quality.html"
