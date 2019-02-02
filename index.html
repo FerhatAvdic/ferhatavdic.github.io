@@ -5,13 +5,16 @@
   links: 
     -
       text: "Portfolio"
-      url: "#"
+      url: "#portfolio"
     -
       text: "Impressions"
       url: "#impressions"
     -
-      text: "About Me / Contact"
-      url: "about.html"
+      text: "Projects"
+      url: "#projects"
+    -
+      text: "Contact"
+      url: "#contact"
 
 ---
       <div id="home">
@@ -44,7 +47,7 @@
       <div  class="container mb-5">
         <div class="row mb-3">
           {% for item in site.data.portfolio-items %}
-          <div class="col-md-6 p-3">
+          <div class="col-md-4 p-3">
             <div class="shadow">
               <a href="{{item.href}}"><img src="{{item.src}}" alt="{{item.alt}}" class="img-fluid border-bottom"></a>
               <div class="bg-light text-dark p-4">
@@ -93,3 +96,111 @@
               </div>
           </div>
       </div>  
+
+      <!-- PROJECTS -->
+      <div id="projects" class="anchor"></div>
+      <div class="container mb-5">
+        <div class="row mb-3">
+          {% for item in site.data.project-items %}
+          <div class="col-md-4 p-3">
+            <div class="shadow">
+              <a href="{{item.href}}"><img src="{{item.src}}" alt="{{item.alt}}" class="img-fluid border-bottom"></a>
+              <div class="bg-light text-dark p-4">
+                <p class="portfolio-head">{{item.alt}}</p>
+                <p class="portfolio-desc">{{item.desc}}</p>
+                <p class="text-secondary">
+                  {% for tech in item.tech %}
+                  <i>#{{tech}}</i>
+                  {% endfor %}
+                </p>
+                <a href="{{item.href}}" class="btn btn-block btn-outline-primary">See more</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+            <div class="col-md-4 p-3">
+              <div class="shadow h-100">
+                
+                <div class="bg-light h-100 d-flex flex-column align-items-center justify-content-center text-dark p-4">
+                  <p class="w-100 portfolio-head text-center"><a href="https://github.com/FerhatAvdic" class="text-dark"><i class="fab fa-github" style="font-size: 148px"></i></a></p>
+                  <p class="w-100 portfolio-desc text-center"><a href="https://github.com/FerhatAvdic" class="text-dark">See All Projects</a></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- ABOUT ME -->
+      <div id="contact" class="bg-dark">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col text-center">
+              <h3 class="mb-5">Contact me</h3>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-md-6 offset-md-3 text-center ">
+              <p>Located in Sarajevo, Bosnia & Hercegovina<p>
+                  <p>IT graduate, currently freelancing while completing masters degree. For all the business inquiries, send
+                    me an email to ferhat.avdic@gmail.com.</p>
+                  <h1>
+                    <i class="fas fa-terminal"></i>
+                    <i class="fab fa-git"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-angular"></i>
+                    <i class="fab fa-vuejs"></i>
+                    <i class="fab fa-node-js"></i>
+                    <i class="fas fa-database"></i>
+                  </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-12">
+            <div class="row pb-5">
+              <div class="col-md-6 offset-md-3">
+                <div class="alerts">
+                  <div class="mt-3 alert alert-danger alert-dismissible collapse" role="alert">
+                    Please check your input
+                    <button type="button" class="close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="mt-3 alert alert-success alert-dismissible collapse" role="alert">
+                    Email successfully sent
+                    <button type="button" class="close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                </div>
+                <form id="contactForm">
+                  <div class="form-group">
+                    <label for="firstname">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                  </div>
+                  <div class="form-group mb-5">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                      <button id="emailBtn" type="submit" class="btn btn-outline-primary btn-block">
+                        Send Email</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>

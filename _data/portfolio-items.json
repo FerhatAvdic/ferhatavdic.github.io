@@ -19,41 +19,5 @@
   "alt": "Namai TV",
   "desc":"A TV service that streams channels online that can be accessed from anywhere. I was assigned a task to refactor the service",
   "tech": ["AngularJS", "Symfony"]
-},
-{
-  "href": "portfolio-items/apartmani-lota.html",
-  "src": "images/lota.png",
-  "alt": "Apartmani Lota",
-  "desc": "Apartment rent in Kostrena, Hrvatska. The client wanted a simple landing page. I decided to take it a step further and check out Vue. While i was at it, why not try Firebase as well.",
-  "tech": ["Vue.js", "Firebase"]
-},
-{
-  "href": "portfolio-items/place-quality.html",
-  "src": "images/pq.png",
-  "alt": "Place Quality",
-  "desc": "A Trip Advisor inspired university project. We had to build a simple crud app using MEAN stack, but since i was already long into it, i wanted to try out something new and build something meaningful.",
-  "tech": ["MEAN Stack"]
-},
-{
-  "href": "portfolio-items/bso.html",
-  "src": "images/ibu.png",
-  "alt": "Bosnian Science Olympiad",
-  "desc": "The graduation project that took my understanding of web apps to a higher level. The idea was to create two apps - a web and a mobile app to aid the competition management and judging.",
-  "tech": ["MEAN Stack", "Ionic Framework"]
-},
-{
-  "href": "portfolio-items/ars-vivendi.html",
-  "src": "images/av.png",
-  "alt": "Ars Vivendi",
-  "desc": "The web app for a community that would act as a platform to connect events and people. Everything was custom made from the landing page to the admin panel. The app includes event categories, events, profiles/users,",
-  "tech":["AngularJS"]
-},
-{
-  "href": "portfolio-items/kulturni-centar.html",
-  "src": "images/kc.png",
-  "alt": "Kulturni Centar",
-  "desc": "A university project where we were to use a PHP framework to build a basic crud app. This is rather a web app mock. I've chosen",
-  "tech":[
-    "Code Igniter"
-  ]
-}]
+}
+]
