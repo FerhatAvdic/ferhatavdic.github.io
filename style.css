@@ -180,7 +180,7 @@ blockquote{
 
 .portfolio-head{
   font-weight: 600;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
 }
 
 .bg-light{
@@ -188,4 +188,15 @@ blockquote{
 }
 .text-light{
   color: #eee !important;
+}
+
+.card-banner{
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-item-platform{
+  max-height: 1.25rem;
 }

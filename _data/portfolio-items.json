@@ -4,20 +4,23 @@
   "src": "images/mwa.png",
   "alt": "Treehouse Bosnia",
   "desc": "Treehouse apartments rent at Treskavica near Trnovo. Such a beautiful, unique place deserves a responsive landing page that's just as attractive. Images played a vital role",
-  "tech": ["Node.js", "Express.js", "Jquery"]
+  "tech": ["Node.js", "Express.js", "Jquery"],
+  "platform": "Freelance"
 },
 {
   "href": "portfolio-items/wicotiz.html",
   "src": "images/wic.png",
   "alt": "Wicotiz",
   "desc": "Wicotiz card is a Mastercard® prepaid card with no bank account, available for everyone. Receive and send money, pay bills, shop online or in stores. It's a simple, secure and rechargeable payment method.",
-  "tech": ["AngularJS"]
+  "tech": ["AngularJS"],
+  "platform": "Upwork"
 },
 {
   "href": "portfolio-items/namai-tv.html",
   "src": "images/ntv.png",
   "alt": "Namai TV",
   "desc":"A TV service that streams channels online that can be accessed from anywhere. I was assigned a task to refactor the service",
-  "tech": ["AngularJS", "Symfony"]
+  "tech": ["AngularJS", "Symfony"],
+  "platform": "Upwork"
 }
 ]
