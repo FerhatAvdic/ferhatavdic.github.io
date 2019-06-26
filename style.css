@@ -42,6 +42,7 @@ footer {
   text-align: justify;
   padding: 5px;
 }
+
 .carousel-adjust-textbox{
   min-height: 400px;
   display:-webkit-box;
@@ -199,4 +200,8 @@ blockquote{
 
 .portfolio-item-platform{
   max-height: 1.25rem;
+}
+
+.cursor-p{
+  cursor: pointer;
 }
